@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<launch>
+	<node name= "turtlesim" pkg= "turtlesim" type= "turtlesim_node" />
+	<node name= "turtle_move" pkg= "ros_turtlesim" type= "turtle_move" output= "screen"/>
+</launch>
